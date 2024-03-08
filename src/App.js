@@ -1,14 +1,13 @@
 import React, { Component } from "react";
-import { BpkCode } from "@skyscanner/backpack-web/bpk-component-code";
 import BpkButton from "@skyscanner/backpack-web/bpk-component-button";
 import BpkText from "@skyscanner/backpack-web/bpk-component-text";
 import BpkCalendar, {
   CALENDAR_SELECTION_TYPE,
 } from "@skyscanner/backpack-web/bpk-component-calendar";
 import format from "date-fns/format";
-import BpkInput, {
-  INPUT_TYPES,
-} from "@skyscanner/backpack-web/bpk-component-input";
+// import BpkInput, {
+//   INPUT_TYPES,
+// } from "@skyscanner/backpack-web/bpk-component-input";
 import { cssModules } from "@skyscanner/backpack-web/bpk-react-utils";
 
 import STYLES from "./App.scss";
