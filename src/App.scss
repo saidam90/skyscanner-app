@@ -1,4 +1,4 @@
-@import '~bpk-mixins';
+@import "~bpk-mixins";
 
 @mixin container {
   max-width: $bpk-breakpoint-desktop;
@@ -9,10 +9,11 @@
   text-align: center;
 
   &__header {
-    padding: $bpk-spacing-lg * 2;
+    padding: $bpk-spacing-lg;
     background-color: $bpk-color-sky-blue;
     background-image: $bpk-primary-gradient;
     color: $bpk-color-white;
+    margin-bottom: 40px;
 
     @include bpk-box-shadow-sm;
 
@@ -36,10 +37,22 @@
   }
 
   &__heading {
-    margin-bottom: $bpk-spacing-sm;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
   }
 
   &__text {
     margin-bottom: $bpk-spacing-sm;
+  }
+
+  &__calendar {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  &__btn {
+    margin-top: 20px;
   }
 }
